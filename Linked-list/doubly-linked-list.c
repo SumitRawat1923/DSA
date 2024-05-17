@@ -17,6 +17,7 @@ struct Node *createNode(int n)
     newNode->data = n;
     newNode->prev = (struct Node *)NULL;
     newNode->next = (struct Node *)NULL;
+    return newNode;
 }
 
 void insertAtStart(int n)
